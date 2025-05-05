@@ -1,0 +1,9 @@
+services:
+   dev:
+     build: .
+     ports:
+       - "127.0.0.1:8081:8081"
+     volumes:
+       - ./keyrings:/home/node/.local/share/keyrings
+       - ./config:/home/node/.snc
+       - ./data:/home/node/data

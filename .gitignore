@@ -1,0 +1,10 @@
+sncli.zip
+
+config/*
+!config/.gitkeep
+
+data/*
+!data/.gitkeep
+
+keyrings/*
+!keyrings/.gitkeep
