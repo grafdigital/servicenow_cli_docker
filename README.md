@@ -41,10 +41,6 @@ This repository aims to provide a minimal and reproducible development environme
      snc configure profile set
      ```
      **Note:** The `ui-component` extension only supports Basic-Auth.
-   - Add the `ui-component` extension:
-     ```bash
-     snc extension add --name ui-component
-     ```
    - Verify the installation:
      ```bash
      snc ui-component --help
