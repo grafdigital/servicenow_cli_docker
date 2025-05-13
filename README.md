@@ -60,7 +60,7 @@ This repository aims to provide a minimal and reproducible development environme
 
 2. **Locally test your compoment:**
    ```bash
-   snc ui-component --host 0.0.0.0 develop
+   snc ui-component --host 0.0.0.0 develop --fetch-assets-from-instance
    ```
    You can open a webbrowser on your host system and access the component preview via http://127.0.0.1:8081
 
