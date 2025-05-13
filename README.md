@@ -6,7 +6,7 @@ This repository aims to provide a minimal and reproducible development environme
 
 ## Why
 
-- **Node / NPM Compatibility:** Newer versions of Node and NPM may fail to install the ServiceNow CLI.
+- **Node / NPM compatibility:** Newer versions of Node and NPM may fail to install the ServiceNow CLI.
 - **Security / Host integrity:** Running "*.run"-installers directly on the host seemed sus.
 
 ## How to Install
@@ -60,7 +60,7 @@ This repository aims to provide a minimal and reproducible development environme
 
 2. **Locally test your compoment:**
    ```bash
-   snc ui-component --host 0.0.0.0
+   snc ui-component --host 0.0.0.0 develop
    ```
    You can open a webbrowser on your host system and access the component preview via http://127.0.0.1:8081
 
